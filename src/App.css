@@ -1,19 +1,40 @@
-*, *::after, *::before{
+*,
+*::after,
+*::before {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+}
+
+*::selection {
+  color: #646cff;
 }
 
 .main-container {
   /* background: red; */
-  height: 100dvh;
+  /* height: 100%; */
   width: 100%;
-  padding: 2rem 5rem;
-  display:flex;
-  flex-direction: column;
+  padding: 1rem 5rem;
+  /* display:flex;
+  flex-direction: column; */
   /* overflow: hidden; */
 }
+
+
+.page-title{
+  margin: 2rem auto;
+}
+
+.page-title > p{
+  line-height: 0.8rem;
+}
+
+.page-title > h2{
+  font-size: 2.2rem;
+  border-bottom: solid 3px #646cff;
+}
+
 
 /* #root {
   max-width: 1280px;
@@ -59,4 +80,3 @@
 .tertiary {
   color: #9ba9b4;
 }
-

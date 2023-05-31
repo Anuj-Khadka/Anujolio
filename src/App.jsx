@@ -11,9 +11,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="main-container">
-      <Router>
-        <NavBar />
+    <Router>
+      <NavBar />
+      <div className="main-container">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -21,8 +21,8 @@ function App() {
           <Route path="/blogs" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
