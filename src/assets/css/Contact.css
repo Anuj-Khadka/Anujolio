@@ -1,0 +1,81 @@
+.contact-container {
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.contact {
+  width: 100%;
+  background: red;
+  padding: 1rem;
+}
+
+.contact-row {
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: green;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-info-container {
+  display: inline-block;
+  padding: 1rem 1rem 1rem 2rem;
+  text-align: left;
+  flex: 0 0 41.666667%;
+  /* max-width: 41.666667%; */
+  background: black;
+}
+
+.contact-info-container > h5 {
+  color: #646cff;
+  font-size: 1.5rem;
+}
+
+/* contact form  */
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 58.333333%;
+  background-color: blue;
+  max-width: 56.333333%;
+  /* max-width: 100%; */
+}
+
+/* #contact_name {
+  grid-area: name;
+}
+#contact_email {
+  grid-area: email;
+}
+#contact_subject {
+  grid-area: subject;
+}
+#contact_message {
+  grid-area: message;
+}
+#contact_submit {
+  grid-area: submit-btn;
+} */
+
+.contact-inputs {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #ffffffd8;
+  /* max-width: 50%; */
+}
+
+#contact_name,
+#contact_email {
+  flex: 1 1 50%;
+}
+
+#contact_message,
+#contact_subject {
+  flex: 0 0 100%;
+}
