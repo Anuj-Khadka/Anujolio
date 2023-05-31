@@ -12,7 +12,7 @@ const NavBar = () => {
       <ul>
         <li>
           <NavLink to="/" className="nav-item">
-            <AiOutlineHome />
+              <AiOutlineHome />
           </NavLink>
         </li>
         <li>

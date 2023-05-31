@@ -1,6 +1,7 @@
 .navbar{
-    width: clamp(300px, 400px, 100%);
-    margin: 0 auto;
+    /* width: clamp(300px, 400px, 100%); */
+    width: 350px;
+    margin: 2rem auto 0 auto;
     padding: 0.7rem 2rem;
     background: #1c1b22;
     border-radius: 3rem;
