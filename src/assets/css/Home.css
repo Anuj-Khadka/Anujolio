@@ -1,6 +1,6 @@
 .home-container {
-  width: clamp(350px, 60%, 100%);
-  height: 100%;
+  width: 60%;
+  height: 75dvh;
   /* background: red; */
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
 }
 
 .hero-social-handles > .social-btn{
-    margin-right: 0.9rem;
+    margin-right: 0.6rem;
 }
 
 
