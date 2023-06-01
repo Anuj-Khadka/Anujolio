@@ -46,7 +46,9 @@ const ProjectDetail = () => {
     //     </div>
     //   </div>
     // </div>
-    <div>prohectdetail</div>
+    <div>
+        prohectdetail
+    </div>
   );
 };
 

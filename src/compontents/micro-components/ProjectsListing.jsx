@@ -6,14 +6,14 @@ const ProjectDetail = () => {
   const allProjects = ProjectsList.map((project) => {
     const { project_name, project_image, project_url } = project;
     return (
-      <div classNameName="project-item-container">
+      <div classNameName="project-item-container" key={project_name}>
         <Link to={`projects/${project_name}`}>
-          <div className="card">
-            <div className="project-img-container">
-              <img src={project_image} alt={project_name} />
-            </div>
+        <div className="card">
+          <div className="project-img-container">
+            <img src={project_image} alt={project_name} />
           </div>
-          {/* <li
+        </div>
+        {/* <li
           className="folio-list__item column"
           data-animate-el=""
           style="opacity: 1; transform: translateY(0px);"
@@ -57,7 +57,7 @@ const ProjectDetail = () => {
     );
   });
 
-  return { allProjects };
+  return <div className="containerere">{allProjects}</div>;
 };
 
 export default ProjectDetail;
