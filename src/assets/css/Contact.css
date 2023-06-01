@@ -9,58 +9,54 @@
 }
 
 .contact {
-  width: 100%;
-  background: red;
+  /* width: 100%; */
+  /* background: red; */
   padding: 1rem;
 }
 
 .contact-row {
   display: flex;
-  /* flex-wrap: wrap; */
-  background-color: green;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: green; */
+  justify-content: center;
   align-items: flex-start;
+}
+
+.form-container {
+  /* background: brown; */
+  flex: 0 0 58.333333%;
+  max-width: 54.333333%;
+  text-align: left;
 }
 
 .contact-info-container {
   display: inline-block;
-  padding: 1rem 1rem 1rem 2rem;
+  padding: 0rem 1rem 1rem 2rem;
   text-align: left;
   flex: 0 0 41.666667%;
   /* max-width: 41.666667%; */
-  background: black;
+  /* background: black; */
 }
 
-.contact-info-container > h5 {
+.contact-info-container > h5,
+.form-container > h5 {
   color: #646cff;
   font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /* contact form  */
 .contact-form {
   display: flex;
   flex-wrap: wrap;
-  flex: 0 0 58.333333%;
-  background-color: blue;
-  max-width: 56.333333%;
-  /* max-width: 100%; */
 }
 
-/* #contact_name {
-  grid-area: name;
-}
-#contact_email {
-  grid-area: email;
-}
-#contact_subject {
-  grid-area: subject;
-}
 #contact_message {
-  grid-area: message;
+  height: 150px;
 }
 #contact_submit {
-  grid-area: submit-btn;
-} */
+  width: 100%;
+}
 
 .contact-inputs {
   padding: 0.7rem 1.2rem;
@@ -78,4 +74,33 @@
 #contact_message,
 #contact_subject {
   flex: 0 0 100%;
+}
+
+/* .contact-info-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.contact-info-row .contact-info-item {
+  width: 50%;
+  /* background-color: green; */
+  border-radius: 1rem;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.contact-info-row .contact-info-item > span {
+  margin-right: 1rem;
+}
+
+@media screen and (width < 800px) {
+  .contact-info-container {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: solid 1px #ffffff79;
+  }
 }
