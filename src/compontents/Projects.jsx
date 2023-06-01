@@ -1,13 +1,11 @@
 import React from 'react'
-import ProjectsList from "../apis/projects-api.json"
+import ProjectsListing from './micro-components/ProjectsListing'
 
 const Projects = () => {
-  fetch(ProjectsList)
-  .then(response=> console.log(response))
-  .catch(error => console.log("eooror", error))
   return (
     <div>
       Projects
+      <ProjectsListing />
     </div>
   )
 }
