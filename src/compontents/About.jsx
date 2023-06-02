@@ -73,7 +73,7 @@ const About = () => {
                   onclick="contentWindow.print();"
                 >
                   <a
-                    href="../assets/resume/Anuj-Khadka_Resume.pdf"
+                    href={Resume}
                     download
                     target="_blank"
                     rel="noopener noreferrer"
