@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../../assets/css/Contact.css";
 import useInput from "./useInput";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
   const [contactName, bindContactName, resetContactName] = useInput("");
@@ -16,6 +18,9 @@ const ContactForm = () => {
     resetContactEmail();
     resetContactSubject();
     resetContactMessage();
+    toast.error(
+      "Sorry the message cannot be sent at the moment. Please reach me through Linkedin."
+    );
   };
   return (
     <form
@@ -32,7 +37,7 @@ const ContactForm = () => {
         name="contact_name"
         placeholder="Anuj Khadka"
         autoComplete="off"
-        />
+      />
       <input
         type="text"
         {...bindContactEmail}
@@ -41,7 +46,7 @@ const ContactForm = () => {
         name="contact_email"
         placeholder="mail@example.com"
         autoComplete="off"
-        />
+      />
       <input
         type="text"
         {...bindContactSubject}
@@ -61,6 +66,18 @@ const ContactForm = () => {
         height="100px"
       ></textarea>
       <button id="contact_submit">Submit</button>
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </form>
   );
 };
