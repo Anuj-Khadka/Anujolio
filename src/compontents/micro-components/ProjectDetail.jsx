@@ -35,9 +35,9 @@ const ProjectDetail = () => {
         <div className="card-inner">
           <div className="top-access">
             <div className="project-links">
-              <button id="live-demo" className="project-access-links">
+              <a  type="button "id="live-demo" className="project-access-links" >
                 Live Demo
-              </button>
+              </a>
               <button id="github-link" className="project-access-links">
                 Source Code
               </button>
