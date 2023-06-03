@@ -128,7 +128,7 @@
 
 .project-access-links{
   margin-right: 1rem;
-  background: none;
+  background: transparent !important;
   box-shadow: 2px 2px 10px #434e68;
 }
 
