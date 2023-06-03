@@ -35,12 +35,12 @@ const ProjectDetail = () => {
         <div className="card-inner">
           <div className="top-access">
             <div className="project-links">
-              <a  type="button "id="live-demo" className="project-access-links" >
+              <a type="button" id="live-demo" className="project-access-links" href={project_url} target="_blank">
                 Live Demo
               </a>
-              <button id="github-link" className="project-access-links">
+              <a type="button" id="github-link" className="project-access-links" href={github_link} target="_blank">
                 Source Code
-              </button>
+              </a>
             </div>
             <button className="close-btn" onClick={ProjectClose}>
               <MdOutlineClose size="1.5rem" />
