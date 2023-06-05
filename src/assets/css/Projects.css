@@ -36,7 +36,7 @@
 
 .project-item-container .project-card {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .project-img-container {
@@ -123,7 +123,6 @@
   align-items: center;
   width:100%;
   margin-bottom: 1rem;
-
 }
 
 .project-access-links{
@@ -182,4 +181,11 @@
 
 .stack-list {
   margin-left: 1rem;
+}
+
+
+@media  screen and (width< 400px) {
+  .project-access-links{
+    font-size: 0.8rem !important;
+  }
 }
