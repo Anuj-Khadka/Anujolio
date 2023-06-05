@@ -80,3 +80,10 @@
 .tertiary {
   color: #9ba9b4;
 }
+
+
+@media screen and (width < 800px){
+  .main-container{
+    padding: 1rem 2rem;
+  }
+}
