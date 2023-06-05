@@ -18,14 +18,14 @@ import wiki_img from "../assets/images/project-images/wiki.jpg";
 
 const ProjectsList = [
   {
-    project_name: "Kinmel",
-    project_image: kinmel_img,
-    project_url: "https://hamrokinmel.netlify.app/",
-    github_link: "https://github.com/anuj-khadka/Kinmel",
+    project_name: "Jelly",
+    project_image: jelly_img,
+    project_url: "https://jelly.thetwl.org",
+    github_link: "https://github.com/anuj-khadka/jelly",
     project_type: "website",
     project_desc:
-      "Built a complete website that renders an image, captured by Juno Spacecraft, of Jupiter, and also fetches the black and white images comparing its optimized image sidewise.",
-    project_stack: "HTML, CSS, JS, React, Redux, Fake Store Api",
+      "elly can understand romanized Nepali with English alphabets and would talk to you in the same. It is Nepal's first romanized chatbot, which has 1000+ active users, helping 90+ people to cure their boredom and loneliness.",
+    project_stack: "HTML, CSS, Bootstrap, JS, Python, Flask, Hugging Face",
   },
   {
     project_name: "Memorivise",
@@ -47,7 +47,8 @@ const ProjectsList = [
     project_type: "website",
     project_desc:
       "Built a complete website that renders an image, captured by Juno Spacecraft, of Jupiter, and also fetches the black and white images comparing its optimized image sidewise.",
-    project_stack: "HTML, CSS, Bootstrap, JS, , Python, Django, Sklearn, Tensorflow",
+    project_stack:
+      "HTML, CSS, Bootstrap, JS, , Python, Django, Sklearn, Tensorflow",
   },
   {
     project_name: "JovAi",
@@ -70,14 +71,24 @@ const ProjectsList = [
     project_stack: "Firebase, Flutter, Figma",
   },
   {
-    project_name: "Jelly",
-    project_image: jelly_img,
-    project_url: "https://jelly.thetwl.org",
-    github_link: "https://github.com/anuj-khadka/jelly",
+    project_name: "Together We Learn",
+    project_image: twl_img,
+    project_url: "https://thetwl.org",
+    github_link: "https://github.com/anuj-khadka",
     project_type: "website",
     project_desc:
-      "elly can understand romanized Nepali with English alphabets and would talk to you in the same. It is Nepal's first romanized chatbot, which has 1000+ active users, helping 90+ people to cure their boredom and loneliness.",
-    project_stack: "HTML, CSS, Bootstrap, JS, Python, Flask, Hugging Face",
+      "Providing resources, ideas and webinars to new coders, designers, potential data scientist and machine learning engineers all for free.",
+    project_stack: "HTML, CSS, JS, WordPress, PHP",
+  },
+  {
+    project_name: "Kinmel",
+    project_image: kinmel_img,
+    project_url: "https://hamrokinmel.netlify.app/",
+    github_link: "https://github.com/anuj-khadka/Kinmel",
+    project_type: "website",
+    project_desc:
+      "Built a complete website that renders an image, captured by Juno Spacecraft, of Jupiter, and also fetches the black and white images comparing its optimized image sidewise.",
+    project_stack: "HTML, CSS, JS, React, Redux, Fake Store Api",
   },
   {
     project_name: "React ToDo App",
@@ -120,16 +131,6 @@ const ProjectsList = [
     project_stack: "HTML, CSS, Bootstrap, JS, React, Redux",
   },
   {
-    project_name: "Set Bootstrap",
-    project_image: setbootstrap_img,
-    project_url: "https://setbootstrapy.netlify.app",
-    github_link: "https://github.com/anuj-khadka",
-    project_type: "website",
-    project_desc:
-      "lorem ipsum this is all about my project I don't know if this site is correct or not but ya it works out.",
-    project_stack: "HTML, CSS, Bootstrap, JS, React, Redux",
-  },
-  {
     project_name: "Mathify",
     project_image: mathify_img,
     project_url: "https://themathify.netlify.app/",
@@ -140,14 +141,14 @@ const ProjectsList = [
     project_stack: "HTML, CSS, Bootstrap, JS, React, Redux",
   },
   {
-    project_name: "Together We Learn",
-    project_image: twl_img,
-    project_url: "https://thetwl.org",
+    project_name: "Set Bootstrap",
+    project_image: setbootstrap_img,
+    project_url: "https://setbootstrapy.netlify.app",
     github_link: "https://github.com/anuj-khadka",
     project_type: "website",
     project_desc:
-      "Providing resources, ideas and webinars to new coders, designers, potential data scientist and machine learning engineers all for free.",
-    project_stack: "HTML, CSS, JS, WordPress, PHP",
+      "lorem ipsum this is all about my project I don't know if this site is correct or not but ya it works out.",
+    project_stack: "HTML, CSS, Bootstrap, JS, React, Redux",
   },
   {
     project_name: "Google Landing Page Clone",
