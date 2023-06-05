@@ -23,9 +23,8 @@
 }
 
 .form-container {
-  /* background: brown; */
   flex: 0 0 58.333333%;
-  max-width: 54.333333%;
+  /* max-width: 54.333333%; */
   text-align: left;
 }
 
@@ -35,7 +34,6 @@
   text-align: left;
   flex: 0 0 41.666667%;
   /* max-width: 41.666667%; */
-  /* background: black; */
 }
 
 .contact-info-container > h5,
