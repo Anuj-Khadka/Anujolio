@@ -19,7 +19,7 @@
 
 ## How to Run
 ### Live Demo
-Live demo at <a href="https://react-toodoos.netlify.app" target="_blank">Toodoo</a>
+Live demo at <a href="https://anujolio.netlify.app/" target="_blank">Anujolio</a>
 
 ### Run Locally
 - Clone the reposiory in your local machine.
