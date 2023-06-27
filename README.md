@@ -16,6 +16,7 @@
 ## Glimpse
 <p>
     <img src="documentations/images/home.png" alt="home" />
+    <img src="documentations/images/about.png" alt="about" />
 </p>
 
 ## How to Run
