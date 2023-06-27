@@ -17,7 +17,8 @@
 <p>
     <img src="documentations/images/home.png" alt="home" />
     <img src="documentations/images/about.png" alt="about" />
-    <img src="documentations/images/projects" alt="projects" />
+    <img src="documentations/images/projects.png" alt="projects" />
+    <img src="documentations/images/contact.png" alt="contact" />
 </p>
 
 ## How to Run
