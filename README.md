@@ -41,3 +41,7 @@ npm run dev
 
 # Features
 - A clean and minimal home page
+
+- About page with all the details about the presenter, and a well structured resume.
+- Glimpse of projects
+- Navigations and actions for project views.
