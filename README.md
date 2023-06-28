@@ -39,3 +39,5 @@ npm run dev
 ```
 - Open the port in your browser `localhost:5173/` <br/>
 
+# Features
+- A clean and minimal home page
