@@ -1,6 +1,8 @@
 # Anujolio
 > A portfolio website made with React js.
 
+![kinmel gif](documentations/vids/anujolio-gif.gif)
+
 
 ## Table of Content 
 - [General Info](#general-info)
