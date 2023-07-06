@@ -14,6 +14,8 @@
 - [Features](#features)
 - [Other Details](#other-details)
 
+## General Info
+Introducing a sleek and modern portfolio site created using React.js. This dynamic website showcases a collection of works and achievements in an elegant and user-friendly manner. With seamless navigation and engaging design, it highlights skills, projects, and contact information, offering a professional platform to showcase talents and expertise.
 
 ## Glimpse
 <p>
@@ -39,3 +41,8 @@ npm run dev
 ```
 - Open the port in your browser `localhost:5173/` <br/>
 
+# Features
+- A clean and minimal home page
+- About page with all the details about the presenter, and a well structured resume.
+- Glimpse of projects
+- Navigations and actions for project views.
