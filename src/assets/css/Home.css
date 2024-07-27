@@ -1,7 +1,6 @@
 .home-container {
   width: 60%;
   height: 75dvh;
-  /* background: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
